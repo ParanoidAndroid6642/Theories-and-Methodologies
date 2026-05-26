@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kōtare</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<title>index</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: max) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+/*<!-- style slideshow --->*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 1px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* N columns side by side (width = 99/n)*/
+.column {
+  float: left;
+  width: 9.9%;  /*  99/10 = 9.9  */
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.55;
+}
+
+.active,
+.demo:hover {
+  opacity: 9;
+}
+/* end slideshow style*/
+</style>
+</head>
+<body>
+<header>
+  <h1>Spectacular Translucence</h1>
+  <h4>Open Source Creation in Practice</h2>
+</header>
+<section>
+
+  <!-- nav bar    --> 
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="_birdPuns.html">Bird Puns (2025)</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="_concepts.html">Concept Laundry</a></li>
+              <li><a href="_concepts.html#human_concepts">Human Concepts</a></li>
+              <li><a href="_concepts.html#concept_laundry">Concept Laundry</a></li>
+              <li><a href="_concepts.html#laundry_spectacular">Laundry Spectacular</a></li>
+              <li><a href="_concepts.html#spectacular_translucence">Spectacular Translucence</a></li>
+              <li><a href="_concepts.html#references">References</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fabric <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="_fabric.html">Fabric Overview</a></li>
+              <li><a href="_fabric_BlueYellowPants.html">Blue/Yellow Pants</a></li>
+              <li><a href="_fabric_SilverLeafWhiteWafflePants.html">Silver Leaf/White Waffle Duvet Pants</a></li>
+              <li><a href="_fabric_BlueWhiteShorts.html">Blue/White Shorts</a></li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <!-- / nav bar    -->
+  
+
+<article>
+  <h1 id="top">Bird Puns (2025)</h3>
+  <p>My bird puns series draw on my love of birds and puns. Through this project I wanted to highlight the beauty of our native bird life and contrast it with the absurdity of how we name them.</p>
+  
+  <!-- Clay slideshow -->
+  <h3 style="text-align:center">Bird Pun Gallery</h3>
+
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/tomtit.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/spoonbill.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/saddleback.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/rifleman.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/oystercatcher.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/morepork.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/maskedBooby.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/kingfisher.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/fantail.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">10 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="birdPuns/cooksPetrel.jpg" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/tomtit.jpg" style="width:100%" onclick="currentSlide(1)" alt="Tomtit">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/spoonbill.jpg" style="width:100%" onclick="currentSlide(2)" alt="Royal Spoonbill">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/saddleback.jpg" style="width:100%" onclick="currentSlide(3)" alt="Saddleback">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/rifleman.jpg" style="width:100%" onclick="currentSlide(4)" alt="Rifleman">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/oystercatcher.jpg" style="width:100%" onclick="currentSlide(5)" alt="Oystercather">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/morepork.jpg" style="width:100%" onclick="currentSlide(6)" alt="Morepork">
+      </div>    
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/maskedBooby.jpg" style="width:100%" onclick="currentSlide(7)" alt="Masked Booby">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/kingfisher.jpg" style="width:100%" onclick="currentSlide(8)" alt="Kingfisher">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/fantail.jpg" style="width:100%" onclick="currentSlide(9)" alt="Fantail">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="birdPuns/cooksPetrel.jpg" style="width:100%" onclick="currentSlide(10)" alt="Cook's Petrel">
+      </div>
+    </div>
+  </div>
+
+  <p>I contrast the natural beauty of the bird with the visual language imbued in their English names and the juxtaposition is almost surreal. Lots of these names are signs and signifiers of colonial oppression (king, royal, rifle, saddle, cook’s) and some others are just light-heartedly funny (booby, tit, shag), at either end of this spectrum these words signify something completely contrary to the natural freedom and beauty of our birds.</p>
+  <p>The real absurdity is that even when the environment remains, colonialism has commandeered the names in our ecology, even when they don’t leave a clear physical mark, they leave an ideological one.                                                                                                                          Our birds are unaware of the implications of their names, providing us a visual symbol of persistence despite superficial labels. My goal with this series is though a series of visual games to get viewers to engage with knowledge of our various bird species and encourage them to think about the signifiers in those names as separate from their inherent qualities.</p>
+  
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+<footer>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="fabric.html"> return to top</a>
+</footer>
+
+</body>
+</html>
+
