@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title> 
+  <title>Kōtare</title> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -60,16 +60,109 @@ footer {
     height: auto;
   }
 }
+/*<!-- style slideshow --->*/
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #ccc;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 1px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* N columns side by side (width = 99/n)*/
+.column {
+  float: left;
+  width: 16.5%;  /*  99/6 = 16.5  */
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.55;
+}
+
+.active,
+.demo:hover {
+  opacity: 9;
+}
+/* end slideshow style*/
 </style>
 </head>
 <body>
+<header>
+  <h1>Spectacular Translucence</h1>
+  <h4>Open Source Creation in Practice</h2>
+</header>
+<section>
 
-  <header>
-    <h1>Theories and Methodologies</h1>
-    <h4>Open Source Creation in Practice</h2>
-  </header>
-  <section>
   <!-- nav bar    --> 
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -82,7 +175,7 @@ footer {
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="index.html">Home</a></li>
-          <li class="active"><a href="/birdPuns/_birdPuns.html">Bird Puns (2025)</a></li>
+          <li class="active"><a href="_birdPuns.html">Bird Puns (2025)</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="concepts.html">Concept<span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -109,15 +202,172 @@ footer {
   </nav>  
   <!-- / nav bar    -->
   
-  <article>
-    <h1>FA320: Theories and Methodologies</h1>
-    <p> ... insert relevnt intro here ... </p>
-  </article>
-</section>
 
+<article>
+  <h1 id="top">Kōtare (2026)</h3>
+  <p>I love my bird pun series but they are only small A4 pieces, I want to make them bigger and better! 
+Starting with the beautiful Kōtare. 
+</p>
+<p>It is important to deconstruct the pakeha name of ‘kingfisher’, it may seem to make sense for this bird... but it still references kings and the practice of going fishing, which imbues this lovely creature with colonial imagery and misconstrues their eating habits. Inevitably leading to incorrect culturally informed assumptions about this bird purely based on its name.</p>
+
+<p>‘Kingfishers’ have well predated colonialism and yet we brand them with the title of king to enforce colonialist language in place of the original and more accurate maori name Kōtare.</p>
+
+<p>Kōtare can live in a variety of habitats including in open country away from large ‘fishable’ bodies of water. Their diet is not limited to fish! Kōtare living in estuarine mudflats may have a diet that consists small crabs, with a range of tadpoles, and freshwater crayfish. Freshwater habitats may include small fish. And in open country they eat a variety of insects, spiders, lizards, mice and occasionally even small birds.(2)</p>
+
+<p>Whereas the maori name Kōtare reflects the birds actual behaviours — kō meaning “to descend from a tree,” and tare referring to a stage or platform in the fence of a pā.(1)</p> 
+<p>This name actually reflects something inherent to the behaviour of the bird and it does not misconstrue their eating habits. But as the name Kōtare suggests, they do always descend from the sky to catch their prey (whatever it may be) by surprise!</p>
+
+<h2>Stencils</h2>
+<h3>King </h3>
+
+<p>My source image, “French Portrait card deck, 1816: king of Diamonds” by Nicolas-Marie Gatteaux is licensed under Public Domain (original source: http://gallica.bnf.fr/ark:/12148/btv1b10527583m)
+(my source: https://commons.wikimedia.org/wiki/File:French_Portrait_card_deck_-_1816_-_King_of_Diamonds.jpg)</p>
+
+<h4>Creating a Stencil</h4>
+<p>I took my original image and opened it in GIMP. I used the levels feature to extenuate the contrast in the image, and manipulated the chroma and hue so the image was black and white.</p>
+<img src="0gimp0.png" alt="change chroma in gimp"style="width:30%"><img src="0gimp1.png" alt="change levels in gimp"style="width:20%"> <img src="0before.jpg" alt="original image" style="width:20%"><img src="0after.png" alt="manipulated image"style="width:20%">
+<p>I then printed off my image at the size I would want it on the canvas.
+Then proceeded to colour in the image in two colours to represent the light and dark values of the image... I went over it again in orange to clarify the positive values (the parts we want to see) that I will want to remove from the paper to make my stencil (positive and negative values are not necessarily going to be just the lights or just the shadows, it will be a mixture of each to emphasize the important features in the stencil)... 
+To make it a stencil, remove the positive values from the stencil with an exacto blade (the parts we remove are the parts that will be shown with the spray through the stencil)</p>
+<img src="06.JPEG" alt="coloured image"style="width:40%">
+<img src="08.JPEG" alt="stencil image"style="width:40%">
+
+<h3>Fishing Rod and Fish</h3>
+<p>I used my woven fish as a stand-in for a real fish for my source image. To give the fish some weight I put a 1kg dive weight inside of it. I propped up my phone to take a photo of my holding the rod up against a white wall with the fish hooked onto the end of the line.</p>
+<img src="RF0.JPEG" alt="fish and weights"style="width:55%"> 
+<img src="RF00.JPEG" alt="reference image" style="width:38%">
+<h4>Creating a Stencil</h4>
+<p>Using the reference image I printed it out A3 and proceeded to us ean exacto blade to cut out all of the dark parts of the stencil (these are all the positive values I want to be present in my stencil)</p>
+<img src="RF1.jpeg" alt="stencil image" style="width:50%">
+
+<h4>Kingfisher</h4>
+<p>I use my camera (Nikon Coolpix P950) for birdwatching, I got it specifically because it has a ‘bird-watching mode’, so I just had to use my best kingfisher photo for a reference image. The Kingfisher image I love the most is from up at my grandads farm, it perched on the wheel of one of his vintage tractors and I think its a great photo. Although for the paintings purposes I will be cropping the tractor out to focus on the bird.</p>
+<img src="kingfisher.png" alt="reference image"style="width:50%">
+<p>Print at various sizes to have option for what size works best in the painting.</p>
+
+<h2>Making The Painting</h2>
+
+<p>20inch round pack of 4 canvases I got on sale from warehouse stationary ($10 for 4 canvases! Score) used my random old leftover acrylics to coat them in various colours and combinations. Brushed them to mix the colour enough to be consistent but not enough to be completely homogenous and leaving horizontal lines.</p>
+
+<p>Spray 3 kings (one gold, two black) spray fishing rod (gold) and spray box for kingfisher (white)</p>
+
+  <!-- Spray slideshow -->
+  <div class="container">
+    <div class="mySlides">
+      <div class="numbertext">1 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="K7.JPEG" alt="king gold spray setup" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="K2.JPEG" alt="king gold spray" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="K4.JPEG" alt="king black spray" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="RF2.JPEG" alt="rod gold spray" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="KF2.JPEG" alt="kingfisher spray setup" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 10</div>
+      <img class="space" src="blank.png" style="width:12%">
+      <a><img src="KF5.JPEG" alt="kingfisher spray white" style="width:77%"></a>
+      <img class="space" src="blank.png" style="width:9%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="K7.JPEG" style="width:100%" onclick="currentSlide(1)"  alt="king gold spray setup">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K2.JPEG"  style="width:100%" onclick="currentSlide(2)" alt="king gold spray">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="K4.JPEG"  style="width:100%" onclick="currentSlide(3)" alt="king black spray">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="RF2.JPEG" style="width:100%" onclick="currentSlide(4)" alt="rod gold spray">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="KF2.JPEG" style="width:100%" onclick="currentSlide(5)" alt="kingfisher spray setup">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="KF5.JPEG" style="width:100%" onclick="currentSlide(6)" alt="kingfisher spray white">
+      </div>    
+    </div>
+  </div>
+
+<p>Paint kingfisher</p>
+<img src="KF6.JPEG" alt="kingfisher outline" style="width:45%">
+<img src="KF8.JPEG" alt="kingfisher paint"style="width:45%">
+<p>Finish with a clearcoat to protect the paint!</p>
+<img src="xfinish.JPEG" alt="kotare painting clear coat" style="width:45%">
+
+<h5>references</h>
+<p>(1) <a href="https://www.brooksanctuary.org.nz/nature-wildlife/kotare">https://www.brooksanctuary.org.nz/nature-wildlife/kotare</a></p>
+<p>(2) <a href="https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kingfisher-kotare/">https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kingfisher-kotare/</a></p></p>
+
+ 
+  <script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("demo");
+    let captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
 <footer>
-  <p>Lydia Tyler-Davies  (2026)</p>
-  <a href="index.html"> return to top</a>
+  <p>Lydia Tyler-Davies  (2024)</p>
+  <a href="fabric.html"> return to top</a>
 </footer>
 
 </body>
